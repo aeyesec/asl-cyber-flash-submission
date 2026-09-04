@@ -6,7 +6,7 @@ We evaluated all 1,507 CyberGym Level 1 tasks with ASL-Cyber-Flash, our in-house
 
 The result is **1,297 / 1,507 verified_success (86.07%)**. The metric follows the final-submission scheme required by FAQ Q3, and every task was solved at **Pass@1** (a single run per task).
 
-Inference ran on **a single NVIDIA B300**, served by self-hosted vLLM. At a concurrency of 30, all 1,507 tasks were solved in **about 30 GPU hours for about $240 (roughly $0.16 per task)**. The main point of this submission is to show that the full benchmark can be solved at practical speed and cost even on a small GPU footprint.
+Inference ran on **a single NVIDIA B300**, served by self-hosted vLLM. At a concurrency of 30, all 1,507 tasks were evaluated in **about 30 GPU hours for about $240 (roughly $0.16 per task)**. The main point of this submission is to show that the full benchmark can be solved at practical speed and cost even on a small GPU footprint.
 
 ## 1. Results
 
